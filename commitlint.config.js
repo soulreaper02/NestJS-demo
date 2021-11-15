@@ -4,5 +4,6 @@ module.exports = {
     ],
     rules: {
         "type-enum" : [2, "always", ['feature', 'fix', 'test', 'revert', 'refactor', 'docs', 'ci']]
-    }
+    },
+    failOnWarnings: true
 }
