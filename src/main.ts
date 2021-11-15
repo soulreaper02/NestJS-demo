@@ -4,5 +4,6 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   await app.listen(process.env.NODE_ENV === 'dev' ? process.env.PORT : 3000);
+  console.log('This is huskey test commit');
 }
 bootstrap();
